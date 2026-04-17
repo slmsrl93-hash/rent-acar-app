@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.28f3bc09.css",
-    "main.js": "/static/js/main.f75e320f.js",
-    "index.html": "/index.html",
-    "main.28f3bc09.css.map": "/static/css/main.28f3bc09.css.map",
-    "main.f75e320f.js.map": "/static/js/main.f75e320f.js.map"
+    "main.css": "/rent-acar-app/static/css/main.28f3bc09.css",
+    "main.js": "/rent-acar-app/static/js/main.f75e320f.js",
+    "index.html": "/rent-acar-app/index.html",
+    "main.28f3bc09.css.map": "/rent-acar-app/static/css/main.28f3bc09.css.map",
+    "main.f75e320f.js.map": "/rent-acar-app/static/js/main.f75e320f.js.map"
   },
   "entrypoints": [
     "static/css/main.28f3bc09.css",
