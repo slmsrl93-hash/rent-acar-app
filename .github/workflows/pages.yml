@@ -3,6 +3,7 @@ name: GitHub Pages
 on:
   push:
     branches:
+      - main
       - cursor/github-pages-adff
   workflow_dispatch:
 
