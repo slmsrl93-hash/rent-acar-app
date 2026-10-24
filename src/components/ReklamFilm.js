@@ -24,10 +24,10 @@ const ReklamFilm = ({ tone = 'light' }) => {
     : 'bg-white text-blue-700 border border-blue-200 hover:bg-blue-50';
 
   return (
-    <div id="film">
+    <div id="film" className="w-full min-w-0">
       <video
         ref={videoRef}
-        className="w-full rounded-2xl bg-black shadow-2xl"
+        className="block w-full max-w-full min-w-0 h-auto rounded-2xl bg-black shadow-2xl"
         src="/reklam/rentcar-reklam.mp4"
         poster="/reklam/poster.jpg"
         controls
