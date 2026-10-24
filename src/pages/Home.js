@@ -20,7 +20,7 @@ const Home = () => {
           <Link to="/arac-kontrol" className="inline-block bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
             Hemen Kirala
           </Link>
-          <div className="w-full max-w-5xl mx-auto mt-10 min-w-0 text-left">
+          <div className="max-w-5xl mx-auto mt-10 text-left">
             <p className="text-sm uppercase tracking-widest text-blue-100 mb-3 text-center">Teslimat ve filo</p>
             <ReklamFilm tone="dark" />
           </div>
