@@ -8,6 +8,7 @@ import AracDetay from './pages/AracDetay';
 import Login from './pages/Login';
 import Rezervasyon from './pages/Rezervasyon';
 import Mobiliz from './pages/Mobiliz';
+import Reklam from './pages/Reklam';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
             <Route path="/login" element={<Login />} />
             <Route path="/rezervasyon" element={<Rezervasyon />} />
             <Route path="/mobiliz" element={<Mobiliz />} />
+            <Route path="/reklam" element={<Reklam />} />
           </Routes>
         </main>
         <Footer />

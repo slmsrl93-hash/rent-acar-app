@@ -22,6 +22,9 @@ const Navbar = () => {
             <Link to="/mobiliz" className="hover:text-gray-200 transition">
               Mobiliz
             </Link>
+            <Link to="/reklam" className="hover:text-gray-200 transition">
+              Reklam
+            </Link>
             <Link to="/login" className="hover:text-gray-200 transition">
               Giriş Yap
             </Link>
