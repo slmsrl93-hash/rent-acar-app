@@ -22,7 +22,6 @@ const Footer = () => {
               <li><Link to="/" className="text-gray-400 hover:text-white transition">Anasayfa</Link></li>
               <li><Link to="/arac-kontrol" className="text-gray-400 hover:text-white transition">Araçları Gör</Link></li>
               <li><Link to="/mobiliz" className="text-gray-400 hover:text-white transition">Mobiliz</Link></li>
-              <li><Link to="/reklam" className="text-gray-400 hover:text-white transition">Reklam Filmi</Link></li>
               <li><Link to="/login" className="text-gray-400 hover:text-white transition">Giriş Yap</Link></li>
             </ul>
           </div>
