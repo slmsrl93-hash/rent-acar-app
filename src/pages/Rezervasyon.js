@@ -60,7 +60,7 @@ const Rezervasyon = () => {
             <h2 className="text-2xl font-semibold mb-4">Kiralanacak Araç</h2>
             {arac ? (
               <div>
-                <img src={arac.resim} alt={'\${arac.marka} \${arac.model}'} className="w-full h-48 object-cover rounded-lg mb-4" />
+                <img src={arac.resim} alt={`${arac.marka} ${arac.model}`} className="w-full h-48 object-cover rounded-lg mb-4" />
                 <h3 className="text-xl font-bold mb-2">{arac.marka} {arac.model}</h3>
                 <p className="text-blue-600 font-bold text-lg">₺{arac.fiyat}/gün</p>
               </div>

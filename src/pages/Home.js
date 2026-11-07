@@ -4,10 +4,10 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       {/* Hero Bölümü */}
-      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-20">
+      <section className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-16 md:py-24">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-5xl font-bold mb-4">RentCar</h1>
-          <p className="text-xl mb-8">En uygun fiyatlarla, konforlu yolculuklar</p>
+          <h1 className="text-3xl md:text-5xl font-bold mb-4">RentCar</h1>
+          <p className="text-lg md:text-xl mb-8">En uygun fiyatlarla, konforlu yolculuklar</p>
           <button className="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
             Hemen Kirala
           </button>

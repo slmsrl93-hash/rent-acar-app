@@ -85,7 +85,7 @@ const AracDetay = () => {
             <div>
               <img 
                 src={arac.resim} 
-                alt={'\${arac.marka} \${arac.model}'} 
+                alt={`${arac.marka} ${arac.model}`} 
                 className="w-full h-96 object-cover rounded-lg"
               />
             </div>
