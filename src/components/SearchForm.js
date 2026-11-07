@@ -22,7 +22,7 @@ const SearchForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg shadow-md max-w-4xl mx-auto -mt-16 relative z-10">
+    <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg shadow-md max-w-4xl mx-auto md:-mt-16 relative z-10 mx-4 md:mx-auto">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
         {/* Araç Tipi */}
         <div>

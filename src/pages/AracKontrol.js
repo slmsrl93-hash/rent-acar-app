@@ -200,18 +200,18 @@ const AracKontrol = () => {
             filtrelesizAraclar.map((arac) => (
               <Link
                 key={arac.id}
-                to={'/arac/\${arac.id}'}
+                to={`/arac/${arac.id}`}
                 className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition cursor-pointer"
               >
                 <img
                   src={arac.resim}
-                  alt={'\${arac.marka} \${arac.model}'}
+                  alt={`${arac.marka} ${arac.model}`}
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-4">
                   <h3 className="font-bold text-xl mb-2">{arac.marka} {arac.model}</h3>
                   <p className="text-gray-600 text-sm mb-2">
-                    {arac.tip} • {arac.yakıt} • {arac.vites}
+                    {arac.tip} • {arac.yakit} • {arac.vites}
                   </p>
                   <p className="text-blue-600 font-bold text-lg">₺{arac.fiyat}/gün</p>
                 </div>
